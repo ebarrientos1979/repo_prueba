@@ -6,7 +6,6 @@ from flask import Flask, request, render_template_string
 
 app = Flask(__name__)
 
-
 # Vulnerabilidad 1: Inyección SQL
 @app.route('/login', methods=['GET', 'POST'])
 def login():
