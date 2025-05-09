@@ -3,7 +3,8 @@ import pickle
 import subprocess
 import sqlite3
 from flask import Flask, request, render_template_string
-   
+
+
 app = Flask(__name__)
 
 # Vulnerabilidad 1: Inyección SQL
